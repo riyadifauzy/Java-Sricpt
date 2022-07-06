@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+<script>
+    const names = [];
+    const apapun = [];
+    names.push("riyadi");
+    names.push("fauzy", "ganteng");
+    names.push("reja", "sulanjana");
+    console.table(names);
+
+    console.info(names[0]);
+    console.info(names[1]);
+    console.info(names[2]);
+
+    names[0]=("Budi");
+    names[1]=("adalah bapak koje");
+
+    console.table(names);
+
+    delete names[3];
+    console.table(names);
+
+    names[3]=("kece");
+    console.table(names);
+    apapun.push("hishna","Dhifa","ismail");
+    names.push(apapun);
+    console.table(names);
+    
+
+    console.info(names.length);
+</script>
+</body>
+</html>

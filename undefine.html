@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefine</title>
+</head>
+<body>
+    <script>
+        let name;
+        if(name === undefined){
+            console.info("UNDEFINE");
+        }else{
+            console.info("DEFINE");
+        }
+
+        // undefine array value 
+        const nama = ["riyadi","fauzy"];
+        if(nama[2] === undefined){
+            console.info("array UNDEFINE");
+        }else{
+            console.info("array define");
+        }
+        // undefine objek property
+
+        const person = {};
+        if(person.nama === undefined){
+            console.info("objek Undefine");
+        }else{
+            console.info(`objek ${person.nama}`);
+        }
+    </script>
+</body>
+</html>
